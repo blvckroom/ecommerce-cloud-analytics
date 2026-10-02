@@ -36,3 +36,10 @@ Phase 0 — environment validation in progress.
 ## Security
 Never record passwords, tokens or connection strings here.
 GitHub Actions and Streamlit secrets have not been configured.
+
+## Phase 1 progress
+- Business brief and initial KPI dictionary created.
+- Main focus: sales drivers, category/state contribution, delivery and reviews.
+- Customer analysis remains conditional on source profiling.
+- Analytical cutoff and representative review rule remain pending.
+- Phase 0 still requires quota verification and Streamlit deployment testing.
