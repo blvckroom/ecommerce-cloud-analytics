@@ -52,3 +52,11 @@ GitHub Actions and Streamlit secrets have not been configured.
 - The app currently displays project information only.
 - No dataset or database credentials have been added to Streamlit.
 - Remaining Phase 0 checks: service quotas and Codespaces configuration.
+
+## Source profiling completed
+- Nine CSVs downloaded; raw files are ignored by Git.
+- Source manifest includes SHA-256 checksums.
+- Initial key, relationship and coverage checks completed.
+- Full source contains 99,441 orders and 96,478 delivered orders.
+- Analytical decisions are recorded in docs/analysis_decisions.md.
+- Profiling phase remains in progress: review and numeric checks are pending.

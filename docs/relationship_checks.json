@@ -1,0 +1,179 @@
+{
+  "relationship_checks": {
+    "orders_with_unknown_customer": 0,
+    "items_with_unknown_order": 0,
+    "items_with_unknown_product": 0,
+    "items_with_unknown_seller": 0,
+    "payments_with_unknown_order": 0,
+    "reviews_with_unknown_order": 0
+  },
+  "delivered_coverage": {
+    "orders": 96478,
+    "without_items": 0,
+    "without_payments": 1,
+    "without_reviews": 646,
+    "missing_dates": {
+      "order_delivered_customer_date": 8,
+      "order_approved_at": 14,
+      "order_delivered_carrier_date": 2
+    },
+    "negative_time_flags": {
+      "carrier_before_purchase": 165,
+      "delivery_before_carrier": 23
+    },
+    "eligible_late_orders": 96470,
+    "late_orders": 6534,
+    "late_rate_pct": 6.7731
+  },
+  "customer_purchase_frequency": {
+    "unmapped_delivered_orders": 0,
+    "purchasing_customers": 93358,
+    "repeat_customers": 2801,
+    "repeat_rate_pct": 3.0003,
+    "customers_by_delivered_order_count": {
+      "1": 90557,
+      "2": 2573,
+      "3": 181,
+      "4": 28,
+      "5": 9,
+      "6": 5,
+      "7": 3,
+      "9": 1,
+      "15": 1
+    }
+  },
+  "category_checks": {
+    "products_missing_category": 610,
+    "categories_without_translation": [
+      "pc_gamer",
+      "portateis_cozinha_e_preparadores_de_alimentos"
+    ]
+  },
+  "monthly_orders": [
+    {
+      "month": "2016-09",
+      "all_orders": 4,
+      "delivered_orders": 1
+    },
+    {
+      "month": "2016-10",
+      "all_orders": 324,
+      "delivered_orders": 265
+    },
+    {
+      "month": "2016-12",
+      "all_orders": 1,
+      "delivered_orders": 1
+    },
+    {
+      "month": "2017-01",
+      "all_orders": 800,
+      "delivered_orders": 750
+    },
+    {
+      "month": "2017-02",
+      "all_orders": 1780,
+      "delivered_orders": 1653
+    },
+    {
+      "month": "2017-03",
+      "all_orders": 2682,
+      "delivered_orders": 2546
+    },
+    {
+      "month": "2017-04",
+      "all_orders": 2404,
+      "delivered_orders": 2303
+    },
+    {
+      "month": "2017-05",
+      "all_orders": 3700,
+      "delivered_orders": 3546
+    },
+    {
+      "month": "2017-06",
+      "all_orders": 3245,
+      "delivered_orders": 3135
+    },
+    {
+      "month": "2017-07",
+      "all_orders": 4026,
+      "delivered_orders": 3872
+    },
+    {
+      "month": "2017-08",
+      "all_orders": 4331,
+      "delivered_orders": 4193
+    },
+    {
+      "month": "2017-09",
+      "all_orders": 4285,
+      "delivered_orders": 4150
+    },
+    {
+      "month": "2017-10",
+      "all_orders": 4631,
+      "delivered_orders": 4478
+    },
+    {
+      "month": "2017-11",
+      "all_orders": 7544,
+      "delivered_orders": 7289
+    },
+    {
+      "month": "2017-12",
+      "all_orders": 5673,
+      "delivered_orders": 5513
+    },
+    {
+      "month": "2018-01",
+      "all_orders": 7269,
+      "delivered_orders": 7069
+    },
+    {
+      "month": "2018-02",
+      "all_orders": 6728,
+      "delivered_orders": 6555
+    },
+    {
+      "month": "2018-03",
+      "all_orders": 7211,
+      "delivered_orders": 7003
+    },
+    {
+      "month": "2018-04",
+      "all_orders": 6939,
+      "delivered_orders": 6798
+    },
+    {
+      "month": "2018-05",
+      "all_orders": 6873,
+      "delivered_orders": 6749
+    },
+    {
+      "month": "2018-06",
+      "all_orders": 6167,
+      "delivered_orders": 6099
+    },
+    {
+      "month": "2018-07",
+      "all_orders": 6292,
+      "delivered_orders": 6159
+    },
+    {
+      "month": "2018-08",
+      "all_orders": 6512,
+      "delivered_orders": 6351
+    },
+    {
+      "month": "2018-09",
+      "all_orders": 16,
+      "delivered_orders": 0
+    },
+    {
+      "month": "2018-10",
+      "all_orders": 4,
+      "delivered_orders": 0
+    }
+  ]
+}

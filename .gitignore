@@ -223,3 +223,6 @@ __marimo__/
 .env.*
 !.env.example
 .streamlit/secrets.toml
+
+# Downloaded source data
+data/raw/
