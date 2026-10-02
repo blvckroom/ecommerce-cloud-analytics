@@ -226,3 +226,9 @@ __marimo__/
 
 # Downloaded source data
 data/raw/
+
+# dbt environment and generated outputs
+.venv-dbt/
+dbt/target/
+dbt/logs/
+dbt/dbt_packages/

@@ -89,3 +89,16 @@ GitHub Actions and Streamlit secrets have not been configured.
 - Database size observed: approximately 110 MB.
 - Loader rerun skipped the unchanged source without duplicating rows.
 - No staging or analytical models have been built yet.
+
+## dbt staging verified
+- Separate Python 3.12 environment: .venv-dbt.
+- dbt Core: 1.11.15; PostgreSQL adapter: 1.11.0.
+- dbt debug passed.
+- Eight staging views built successfully.
+- Thirty column tests and two SQL tests passed.
+- Build summary: PASS=40, WARN=0, ERROR=0, SKIP=0.
+- Evidence: docs/staging_build_results.json.
+- Credentials are passed through environment variables.
+- Raw data remains unchanged.
+- Next: aggregate items and payments, select representative reviews,
+  then build and reconcile order-level facts.

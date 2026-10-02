@@ -1,0 +1,15 @@
+version: 2
+
+sources:
+  - name: olist_raw
+    schema: raw
+    description: Selected columns from the checksum-verified Olist source.
+    tables:
+      - name: customers
+      - name: orders
+      - name: order_items
+      - name: payments
+      - name: reviews
+      - name: products
+      - name: sellers
+      - name: category_translation

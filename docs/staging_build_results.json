@@ -1,0 +1,214 @@
+{
+  "generated_at": "2026-10-02T23:27:01.078585Z",
+  "dbt_version": "1.11.15",
+  "resource_counts": {
+    "model": 8,
+    "test": 32
+  },
+  "status_counts": {
+    "success": 8,
+    "pass": 32
+  },
+  "results": [
+    {
+      "unique_id": "model.ecommerce_cloud_analytics.stg_category_translation",
+      "status": "success",
+      "failures": null
+    },
+    {
+      "unique_id": "model.ecommerce_cloud_analytics.stg_customers",
+      "status": "success",
+      "failures": null
+    },
+    {
+      "unique_id": "model.ecommerce_cloud_analytics.stg_order_items",
+      "status": "success",
+      "failures": null
+    },
+    {
+      "unique_id": "model.ecommerce_cloud_analytics.stg_orders",
+      "status": "success",
+      "failures": null
+    },
+    {
+      "unique_id": "model.ecommerce_cloud_analytics.stg_payments",
+      "status": "success",
+      "failures": null
+    },
+    {
+      "unique_id": "model.ecommerce_cloud_analytics.stg_products",
+      "status": "success",
+      "failures": null
+    },
+    {
+      "unique_id": "model.ecommerce_cloud_analytics.stg_reviews",
+      "status": "success",
+      "failures": null
+    },
+    {
+      "unique_id": "model.ecommerce_cloud_analytics.stg_sellers",
+      "status": "success",
+      "failures": null
+    },
+    {
+      "unique_id": "test.ecommerce_cloud_analytics.not_null_stg_category_translation_product_category_name.0e044050d1",
+      "status": "pass",
+      "failures": 0
+    },
+    {
+      "unique_id": "test.ecommerce_cloud_analytics.unique_stg_category_translation_product_category_name.358d1ab0fd",
+      "status": "pass",
+      "failures": 0
+    },
+    {
+      "unique_id": "test.ecommerce_cloud_analytics.not_null_stg_customers_customer_id.e2cfb1f9aa",
+      "status": "pass",
+      "failures": 0
+    },
+    {
+      "unique_id": "test.ecommerce_cloud_analytics.not_null_stg_customers_customer_unique_id.7144461cba",
+      "status": "pass",
+      "failures": 0
+    },
+    {
+      "unique_id": "test.ecommerce_cloud_analytics.unique_stg_customers_customer_id.c7614daada",
+      "status": "pass",
+      "failures": 0
+    },
+    {
+      "unique_id": "test.ecommerce_cloud_analytics.not_null_stg_order_items_freight_value.89c3d2bfa8",
+      "status": "pass",
+      "failures": 0
+    },
+    {
+      "unique_id": "test.ecommerce_cloud_analytics.not_null_stg_order_items_item_price.5947c07556",
+      "status": "pass",
+      "failures": 0
+    },
+    {
+      "unique_id": "test.ecommerce_cloud_analytics.not_null_stg_order_items_order_id.2063801f96",
+      "status": "pass",
+      "failures": 0
+    },
+    {
+      "unique_id": "test.ecommerce_cloud_analytics.not_null_stg_order_items_order_item_id.26a7e2bc35",
+      "status": "pass",
+      "failures": 0
+    },
+    {
+      "unique_id": "test.ecommerce_cloud_analytics.not_null_stg_order_items_product_id.5154a8a6f6",
+      "status": "pass",
+      "failures": 0
+    },
+    {
+      "unique_id": "test.ecommerce_cloud_analytics.not_null_stg_order_items_seller_id.562a7a66c6",
+      "status": "pass",
+      "failures": 0
+    },
+    {
+      "unique_id": "test.ecommerce_cloud_analytics.accepted_values_stg_orders_order_status__delivered__invoiced__shipped__processing__unavailable__canceled__created__approved.9684818a93",
+      "status": "pass",
+      "failures": 0
+    },
+    {
+      "unique_id": "test.ecommerce_cloud_analytics.not_null_stg_orders_customer_id.af79d5e4b5",
+      "status": "pass",
+      "failures": 0
+    },
+    {
+      "unique_id": "test.ecommerce_cloud_analytics.not_null_stg_orders_order_id.81cfe2fe64",
+      "status": "pass",
+      "failures": 0
+    },
+    {
+      "unique_id": "test.ecommerce_cloud_analytics.not_null_stg_orders_order_status.d7fcf15f79",
+      "status": "pass",
+      "failures": 0
+    },
+    {
+      "unique_id": "test.ecommerce_cloud_analytics.not_null_stg_orders_purchased_at.c1efa3edc3",
+      "status": "pass",
+      "failures": 0
+    },
+    {
+      "unique_id": "test.ecommerce_cloud_analytics.unique_stg_orders_order_id.e3b841c71a",
+      "status": "pass",
+      "failures": 0
+    },
+    {
+      "unique_id": "test.ecommerce_cloud_analytics.not_null_stg_payments_order_id.601cf57649",
+      "status": "pass",
+      "failures": 0
+    },
+    {
+      "unique_id": "test.ecommerce_cloud_analytics.not_null_stg_payments_payment_sequential.ce0fe00a10",
+      "status": "pass",
+      "failures": 0
+    },
+    {
+      "unique_id": "test.ecommerce_cloud_analytics.not_null_stg_payments_payment_value.2154bc0dcb",
+      "status": "pass",
+      "failures": 0
+    },
+    {
+      "unique_id": "test.ecommerce_cloud_analytics.staging_composite_keys",
+      "status": "pass",
+      "failures": 0
+    },
+    {
+      "unique_id": "test.ecommerce_cloud_analytics.not_null_stg_products_product_id.6373b0acf3",
+      "status": "pass",
+      "failures": 0
+    },
+    {
+      "unique_id": "test.ecommerce_cloud_analytics.unique_stg_products_product_id.7d950a1467",
+      "status": "pass",
+      "failures": 0
+    },
+    {
+      "unique_id": "test.ecommerce_cloud_analytics.accepted_values_stg_reviews_review_score__False__1__2__3__4__5.4058ac9c84",
+      "status": "pass",
+      "failures": 0
+    },
+    {
+      "unique_id": "test.ecommerce_cloud_analytics.not_null_stg_reviews_order_id.da21bf836d",
+      "status": "pass",
+      "failures": 0
+    },
+    {
+      "unique_id": "test.ecommerce_cloud_analytics.not_null_stg_reviews_review_id.943b8fc3e4",
+      "status": "pass",
+      "failures": 0
+    },
+    {
+      "unique_id": "test.ecommerce_cloud_analytics.not_null_stg_reviews_review_score.0e48fbb0d1",
+      "status": "pass",
+      "failures": 0
+    },
+    {
+      "unique_id": "test.ecommerce_cloud_analytics.not_null_stg_reviews_source_row_number.7ebf78ec77",
+      "status": "pass",
+      "failures": 0
+    },
+    {
+      "unique_id": "test.ecommerce_cloud_analytics.unique_stg_reviews_source_row_number.f8061dbb51",
+      "status": "pass",
+      "failures": 0
+    },
+    {
+      "unique_id": "test.ecommerce_cloud_analytics.not_null_stg_sellers_seller_id.35d0bce315",
+      "status": "pass",
+      "failures": 0
+    },
+    {
+      "unique_id": "test.ecommerce_cloud_analytics.staging_row_counts",
+      "status": "pass",
+      "failures": 0
+    },
+    {
+      "unique_id": "test.ecommerce_cloud_analytics.unique_stg_sellers_seller_id.cb2e34d4b8",
+      "status": "pass",
+      "failures": 0
+    }
+  ]
+}

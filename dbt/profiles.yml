@@ -1,0 +1,14 @@
+ecommerce_cloud_analytics:
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      host: "{{ env_var('DBT_ENV_SECRET_PGHOST') }}"
+      user: "{{ env_var('DBT_ENV_SECRET_PGUSER') }}"
+      password: "{{ env_var('DBT_ENV_SECRET_PGPASSWORD') }}"
+      port: "{{ env_var('DBT_PGPORT') | int }}"
+      dbname: "{{ env_var('DBT_PGDATABASE') }}"
+      schema: staging
+      threads: 1
+      connect_timeout: 30
+      sslmode: require
