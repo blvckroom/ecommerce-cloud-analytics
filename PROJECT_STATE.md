@@ -43,3 +43,12 @@ GitHub Actions and Streamlit secrets have not been configured.
 - Customer analysis remains conditional on source profiling.
 - Analytical cutoff and representative review rule remain pending.
 - Phase 0 still requires quota verification and Streamlit deployment testing.
+
+## Streamlit deployment verified
+- App: https://blvckroom-ecommerce-analytics.streamlit.app/
+- Entry point: dashboard/app.py.
+- Public access verified by the owner in an incognito window.
+- The deployment smoke test passed on 2026-10-03.
+- The app currently displays project information only.
+- No dataset or database credentials have been added to Streamlit.
+- Remaining Phase 0 checks: service quotas and Codespaces configuration.
