@@ -1,0 +1,32 @@
+version: 2
+models:
+- name: int_order_item_totals
+  columns:
+  - name: order_id
+    data_tests:
+    - unique
+    - not_null
+    - relationships:
+        arguments:
+          to: ref('stg_orders')
+          field: order_id
+- name: int_order_payment_totals
+  columns:
+  - name: order_id
+    data_tests:
+    - unique
+    - not_null
+    - relationships:
+        arguments:
+          to: ref('stg_orders')
+          field: order_id
+- name: int_order_review_selected
+  columns:
+  - name: order_id
+    data_tests:
+    - unique
+    - not_null
+    - relationships:
+        arguments:
+          to: ref('stg_orders')
+          field: order_id

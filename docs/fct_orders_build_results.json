@@ -1,0 +1,55 @@
+{
+  "generated_at": "2026-10-02T23:41:43.234096Z",
+  "dbt_version": "1.11.15",
+  "status_counts": {
+    "success": 1,
+    "pass": 8
+  },
+  "results": [
+    {
+      "unique_id": "model.ecommerce_cloud_analytics.fct_orders",
+      "status": "success",
+      "failures": null
+    },
+    {
+      "unique_id": "test.ecommerce_cloud_analytics.fct_orders_coverage",
+      "status": "pass",
+      "failures": 0
+    },
+    {
+      "unique_id": "test.ecommerce_cloud_analytics.fct_orders_reconciliation",
+      "status": "pass",
+      "failures": 0
+    },
+    {
+      "unique_id": "test.ecommerce_cloud_analytics.not_null_fct_orders_customer_id.16fe324f7b",
+      "status": "pass",
+      "failures": 0
+    },
+    {
+      "unique_id": "test.ecommerce_cloud_analytics.not_null_fct_orders_customer_unique_id.7193037620",
+      "status": "pass",
+      "failures": 0
+    },
+    {
+      "unique_id": "test.ecommerce_cloud_analytics.not_null_fct_orders_order_id.4e687af8d0",
+      "status": "pass",
+      "failures": 0
+    },
+    {
+      "unique_id": "test.ecommerce_cloud_analytics.not_null_fct_orders_purchased_at.baf1a34608",
+      "status": "pass",
+      "failures": 0
+    },
+    {
+      "unique_id": "test.ecommerce_cloud_analytics.relationships_fct_orders_order_id__order_id__ref_stg_orders_.9163d08a72",
+      "status": "pass",
+      "failures": 0
+    },
+    {
+      "unique_id": "test.ecommerce_cloud_analytics.unique_fct_orders_order_id.523ddb6ce5",
+      "status": "pass",
+      "failures": 0
+    }
+  ]
+}

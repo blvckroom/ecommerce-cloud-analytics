@@ -102,3 +102,17 @@ GitHub Actions and Streamlit secrets have not been configured.
 - Raw data remains unchanged.
 - Next: aggregate items and payments, select representative reviews,
   then build and reconcile order-level facts.
+
+## Intermediate and order fact verified
+- Three intermediate views built:
+  int_order_item_totals, int_order_payment_totals,
+  int_order_review_selected.
+- Intermediate build: PASS=13, WARN=0, ERROR=0, SKIP=0.
+- Order-level fct_orders view built with independent child aggregates.
+- Fact build: PASS=9, WARN=0, ERROR=0, SKIP=0.
+- Tests verify order count, merchandise, freight, payment totals,
+  review coverage and selected coverage flags.
+- Fact build evidence: docs/fct_orders_build_results.json.
+- All order statuses remain available; missing values are preserved.
+- No final sales KPI or business finding has been published yet.
+- Next: calculate sales KPIs for the declared analytical window.
