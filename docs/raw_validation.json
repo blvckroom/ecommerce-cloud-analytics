@@ -1,0 +1,100 @@
+{
+  "rows": {
+    "customers": {
+      "expected": 99441,
+      "actual": 99441,
+      "pass": true
+    },
+    "orders": {
+      "expected": 99441,
+      "actual": 99441,
+      "pass": true
+    },
+    "order_items": {
+      "expected": 112650,
+      "actual": 112650,
+      "pass": true
+    },
+    "payments": {
+      "expected": 103886,
+      "actual": 103886,
+      "pass": true
+    },
+    "reviews": {
+      "expected": 99224,
+      "actual": 99224,
+      "pass": true
+    },
+    "products": {
+      "expected": 32951,
+      "actual": 32951,
+      "pass": true
+    },
+    "sellers": {
+      "expected": 3095,
+      "actual": 3095,
+      "pass": true
+    },
+    "category_translation": {
+      "expected": 71,
+      "actual": 71,
+      "pass": true
+    }
+  },
+  "money": {
+    "item_price": {
+      "expected": "13591643.70",
+      "actual": "13591643.70",
+      "pass": true
+    },
+    "item_freight": {
+      "expected": "2251909.54",
+      "actual": "2251909.54",
+      "pass": true
+    },
+    "payment_value": {
+      "expected": "16008872.12",
+      "actual": "16008872.12",
+      "pass": true
+    }
+  },
+  "relationships": {
+    "orders_customer": {
+      "orphan_rows": 0,
+      "pass": true
+    },
+    "items_order": {
+      "orphan_rows": 0,
+      "pass": true
+    },
+    "items_product": {
+      "orphan_rows": 0,
+      "pass": true
+    },
+    "items_seller": {
+      "orphan_rows": 0,
+      "pass": true
+    },
+    "payments_order": {
+      "orphan_rows": 0,
+      "pass": true
+    },
+    "reviews_order": {
+      "orphan_rows": 0,
+      "pass": true
+    }
+  },
+  "status_counts": {
+    "approved": 2,
+    "canceled": 625,
+    "created": 5,
+    "delivered": 96478,
+    "invoiced": 314,
+    "processing": 301,
+    "shipped": 1107,
+    "unavailable": 609
+  },
+  "database_size": "110 MB",
+  "failures": [],
+  "pass": true
+}

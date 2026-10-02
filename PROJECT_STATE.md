@@ -77,3 +77,15 @@ GitHub Actions and Streamlit secrets have not been configured.
 - Data transfer allowance remains unverified.
 - Initial model documented in docs/data_model.md.
 - No raw tables have been created or loaded yet.
+
+## Raw ingestion verified
+- Database schemas and eight raw tables created.
+- Source checksums verified before loading.
+- Initial load committed successfully.
+- All eight raw table row counts match source profiling.
+- Source monetary totals and order-status counts match PostgreSQL.
+- Six tested foreign-key relationships have zero orphan rows.
+- Evidence: docs/raw_validation.json.
+- Database size observed: approximately 110 MB.
+- Loader rerun skipped the unchanged source without duplicating rows.
+- No staging or analytical models have been built yet.
