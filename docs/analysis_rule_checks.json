@@ -1,0 +1,84 @@
+{
+  "money_checks_all_source_rows": {
+    "item_price": {
+      "missing": 0,
+      "invalid": 0,
+      "negative": 0,
+      "zero": 0,
+      "minimum": "0.85",
+      "maximum": "6735.00",
+      "sum": "13591643.70"
+    },
+    "item_freight": {
+      "missing": 0,
+      "invalid": 0,
+      "negative": 0,
+      "zero": 383,
+      "minimum": "0.00",
+      "maximum": "409.68",
+      "sum": "2251909.54"
+    },
+    "payment_value": {
+      "missing": 0,
+      "invalid": 0,
+      "negative": 0,
+      "zero": 9,
+      "minimum": "0.00",
+      "maximum": "13664.08",
+      "sum": "16008872.12"
+    }
+  },
+  "review_checks": {
+    "invalid_score_rows": 0,
+    "missing_review_id_rows": 0,
+    "review_ids_used_more_than_once": 789,
+    "orders_with_conflicting_review_scores": 202,
+    "orders_with_top_rank_ties": 0,
+    "orders_with_top_rank_conflicting_scores": 0,
+    "selection_candidate": "latest answer timestamp, then creation timestamp, then review_id",
+    "delivered_orders_with_review_and_delivery_timestamps": 95824,
+    "selected_review_answer_before_actual_delivery": 4653
+  },
+  "delivered_purchase_boundary": {
+    "first": "2016-09-15T12:16:38",
+    "last": "2018-08-29T15:00:37",
+    "august_2018_daily_orders": {
+      "2018-08-01": 306,
+      "2018-08-02": 292,
+      "2018-08-03": 308,
+      "2018-08-04": 236,
+      "2018-08-05": 269,
+      "2018-08-06": 363,
+      "2018-08-07": 353,
+      "2018-08-08": 310,
+      "2018-08-09": 280,
+      "2018-08-10": 249,
+      "2018-08-11": 185,
+      "2018-08-12": 191,
+      "2018-08-13": 284,
+      "2018-08-14": 311,
+      "2018-08-15": 282,
+      "2018-08-16": 316,
+      "2018-08-17": 249,
+      "2018-08-18": 193,
+      "2018-08-19": 204,
+      "2018-08-20": 251,
+      "2018-08-21": 238,
+      "2018-08-22": 185,
+      "2018-08-23": 142,
+      "2018-08-24": 96,
+      "2018-08-25": 69,
+      "2018-08-26": 73,
+      "2018-08-27": 66,
+      "2018-08-28": 39,
+      "2018-08-29": 11
+    }
+  },
+  "payment_reconciliation": {
+    "status": "completed",
+    "compared_delivered_orders": 96477,
+    "absolute_difference_over_0_01": 299,
+    "absolute_difference_over_1_00": 246,
+    "sum_payment_minus_items_and_freight": "2831.48"
+  }
+}

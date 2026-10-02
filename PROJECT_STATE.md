@@ -60,3 +60,11 @@ GitHub Actions and Streamlit secrets have not been configured.
 - Full source contains 99,441 orders and 96,478 delivered orders.
 - Analytical decisions are recorded in docs/analysis_decisions.md.
 - Profiling phase remains in progress: review and numeric checks are pending.
+
+## Analytical rules validated
+- Monetary validity, review ordering and purchase boundary checks completed.
+- Evidence: docs/analysis_rule_checks.json.
+- Default sales comparison window: January 2017 through July 2018.
+- Customer segmentation: Recency-Monetary plus repeat-purchase flag.
+- Source exceptions will be retained and flagged.
+- Next: confirm source metadata and Neon limits, then design database models.
