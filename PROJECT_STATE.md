@@ -68,3 +68,12 @@ GitHub Actions and Streamlit secrets have not been configured.
 - Customer segmentation: Recency-Monetary plus repeat-purchase flag.
 - Source exceptions will be retained and flagged.
 - Next: confirm source metadata and Neon limits, then design database models.
+
+## Database design preparation
+- Dataset license verified: CC BY-NC-SA 4.0.
+- Kaggle version number remains unverified; source checksums are recorded.
+- Neon UI confirms USD 0/month and 1 GB Postgres storage.
+- UI displays 100 compute hours/month; accounting details remain to be checked.
+- Data transfer allowance remains unverified.
+- Initial model documented in docs/data_model.md.
+- No raw tables have been created or loaded yet.
