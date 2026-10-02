@@ -116,3 +116,11 @@ GitHub Actions and Streamlit secrets have not been configured.
 - All order statuses remain available; missing values are preserved.
 - No final sales KPI or business finding has been published yet.
 - Next: calculate sales KPIs for the declared analytical window.
+
+## Sales analysis verified
+- Monthly sales mart build passed: 7 resources, no errors or skips.
+- Monthly GMV, orders, customers and AOV reconcile independently to raw.
+- Sales export and symmetric GMV decomposition completed.
+- Evidence: docs/sales_results.json and docs/sales_build_results.json.
+- Three initial findings documented in docs/insight_log.md.
+- Next: category and customer-state contributions, prioritizing May-June 2018.

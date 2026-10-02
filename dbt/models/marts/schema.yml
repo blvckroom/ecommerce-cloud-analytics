@@ -1,23 +1,38 @@
 version: 2
-
 models:
-  - name: fct_orders
-    description: One row per source order, retaining all order statuses.
-    columns:
-      - name: order_id
-        data_tests:
-          - unique
-          - not_null
-          - relationships:
-              arguments:
-                to: ref('stg_orders')
-                field: order_id
-      - name: customer_id
-        data_tests:
-          - not_null
-      - name: customer_unique_id
-        data_tests:
-          - not_null
-      - name: purchased_at
-        data_tests:
-          - not_null
+- name: fct_orders
+  description: One row per source order, retaining all order statuses.
+  columns:
+  - name: order_id
+    data_tests:
+    - unique
+    - not_null
+    - relationships:
+        arguments:
+          to: ref('stg_orders')
+          field: order_id
+  - name: customer_id
+    data_tests:
+    - not_null
+  - name: customer_unique_id
+    data_tests:
+    - not_null
+  - name: purchased_at
+    data_tests:
+    - not_null
+- name: mart_sales_monthly
+  description: Monthly delivered merchandise sales, January 2017 through July 2018.
+  columns:
+  - name: purchase_month
+    data_tests:
+    - unique
+    - not_null
+  - name: merchandise_gmv
+    data_tests:
+    - not_null
+  - name: delivered_orders
+    data_tests:
+    - not_null
+  - name: purchasing_customers
+    data_tests:
+    - not_null

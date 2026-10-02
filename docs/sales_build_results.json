@@ -1,0 +1,45 @@
+{
+  "generated_at": "2026-10-02T23:46:59.793568Z",
+  "dbt_version": "1.11.15",
+  "status_counts": {
+    "success": 1,
+    "pass": 6
+  },
+  "results": [
+    {
+      "unique_id": "model.ecommerce_cloud_analytics.mart_sales_monthly",
+      "status": "success",
+      "failures": null
+    },
+    {
+      "unique_id": "test.ecommerce_cloud_analytics.mart_sales_monthly_reconciliation",
+      "status": "pass",
+      "failures": 0
+    },
+    {
+      "unique_id": "test.ecommerce_cloud_analytics.not_null_mart_sales_monthly_delivered_orders.cb9d6ca9f9",
+      "status": "pass",
+      "failures": 0
+    },
+    {
+      "unique_id": "test.ecommerce_cloud_analytics.not_null_mart_sales_monthly_merchandise_gmv.19e383c225",
+      "status": "pass",
+      "failures": 0
+    },
+    {
+      "unique_id": "test.ecommerce_cloud_analytics.not_null_mart_sales_monthly_purchase_month.96e3133477",
+      "status": "pass",
+      "failures": 0
+    },
+    {
+      "unique_id": "test.ecommerce_cloud_analytics.not_null_mart_sales_monthly_purchasing_customers.6b8a70421f",
+      "status": "pass",
+      "failures": 0
+    },
+    {
+      "unique_id": "test.ecommerce_cloud_analytics.unique_mart_sales_monthly_purchase_month.58968192ce",
+      "status": "pass",
+      "failures": 0
+    }
+  ]
+}
