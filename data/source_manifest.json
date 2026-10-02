@@ -2,8 +2,8 @@
   "dataset": "olistbr/brazilian-ecommerce",
   "source_url": "https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce",
   "manifest_created_at_utc": "2026-10-02T22:25:28.097393+00:00",
-  "dataset_version": "pending verification",
-  "license": "pending verification on source data card",
+  "dataset_version": "not yet verified",
+  "license": "CC BY-NC-SA 4.0",
   "files": [
     {
       "name": "olist_customers_dataset.csv",
@@ -50,5 +50,7 @@
       "size_bytes": 2613,
       "sha256": "a81f0d1f27b27e7293f761bc79e3ce8f348ee39c4b3ed3e49bde38f478586278"
     }
-  ]
+  ],
+  "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "source_identity_note": "Downloaded source files are identified by the recorded SHA-256 checksums. Kaggle version number remains unverified."
 }
