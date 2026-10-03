@@ -160,3 +160,13 @@ GitHub Actions and Streamlit secrets have not been configured.
   6,138 late orders; late rate 6.83%.
 - Documented delivery/rating association and review-timing sensitivity.
 - Recorded regional operational priorities and interpretation limits.
+
+## Customer retention analysis completed
+
+- int_customer_monthly selected build: PASS=3, no warnings or errors.
+- mart_customer_cohort selected build: PASS=3, no warnings or errors.
+- Both models reconciled independently against raw source data.
+- Export: docs/customer_retention.json; reconciliation PASS.
+- In-window customers: 86,960; repeat customers: 2,609 (3.00%).
+- Cohort output covers M0-M12 and preserves unobserved months as NULL.
+- Documented observation-window limits and repeat-purchase recommendation.

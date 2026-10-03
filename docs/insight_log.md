@@ -258,3 +258,57 @@ be interpreted as improved fulfillment.
 
 Do not infer that late delivery caused the May–June GMV decline
 from these descriptive results.
+
+## S11 — Repeat purchasing within the analysis window
+
+Source: docs/customer_retention.json.
+Window: delivered purchases from 2017-01-01 inclusive to
+2018-08-01 exclusive. Customer identity: customer_unique_id.
+
+There were 86,960 purchasing customers and 89,860 delivered orders.
+Of these customers, 84,351 placed one order within the window and
+2,609 placed at least two orders. The repeat customer rate was 3.00%.
+
+This is a window-specific purchase frequency measure, not a churn
+rate. Customers entering near the end of the window had less time
+to make another purchase. Multiple purchases within one month count
+toward repeat purchasing but do not imply next-month retention.
+
+## S12 — Monthly cohort retention
+
+Cohorts use first observed delivered purchase month, including
+available 2016 history. Retention measures activity in a specific
+month after cohort entry; it is not cumulative return probability.
+
+For cohorts starting from January 2017 with sufficient observation:
+- M1: 389 / 81,001 customers = 0.4802%.
+- M3: 180 / 68,617 customers = 0.2623%.
+- M6: 115 / 48,973 customers = 0.2348%.
+- M12: 31 / 17,344 customers = 0.1787%.
+
+Eligible cohort composition changes across horizons. These pooled
+values must not be interpreted as a single fixed population's
+retention trajectory.
+
+The 2017-onward cohort population contains 86,950 customers.
+Ten additional customers purchasing within the analysis window
+had their first observed delivered purchase in 2016.
+
+Unobserved months remain NULL rather than zero. First observed
+purchase does not necessarily equal first lifetime purchase.
+
+## R04 — Design and evaluate repeat-purchase experiments
+
+Investigate repeat purchasing by first-purchase category, acquisition
+cohort and delivery experience before selecting target segments.
+
+Consider a post-purchase communication or relevant product
+recommendation experiment. Evaluate a predefined repeat-purchase
+window, such as 90 days, using customers with sufficient follow-up
+and a randomized control group.
+
+Use incremental repeat purchasing as an outcome and monitor
+communication opt-outs and incentive cost. Profitability evaluation
+requires additional cost and margin data unavailable in this dataset.
+
+Do not claim that a CRM intervention has already been validated.
