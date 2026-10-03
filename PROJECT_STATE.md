@@ -180,3 +180,9 @@ GitHub Actions and Streamlit secrets have not been configured.
 - Four explicit recency/frequency segments; monetary retained as GMV.
 - Totals: 86,960 customers; 89,860 orders; 12,342,450.49 BRL GMV.
 - Documented segment interpretation and candidate experiment audiences.
+
+## Full dbt integration check completed
+
+- Full project build: PASS=128, WARN=0, ERROR=0, SKIP=0.
+- Evidence: docs/full_dbt_build_results.json.
+- Next: implement and validate the Streamlit analytics dashboard.
