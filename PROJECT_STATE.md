@@ -133,3 +133,11 @@ GitHub Actions and Streamlit secrets have not been configured.
 - Five initial findings and one preliminary recommendation documented.
 - Evidence: docs/category_changes_may_june_2018.json.
 - Next: investigate category drivers and customer-state contributions.
+
+## Category drivers analyzed
+- Five priority categories decomposed into category-order volume
+  and category merchandise value per order.
+- All five decompositions reconcile within BRL 0.01.
+- Evidence: docs/category_drivers_may_june_2018.json.
+- Recommendation R01 refined by category.
+- Next: customer-state contribution analysis, then delivery and reviews.

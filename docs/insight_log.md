@@ -105,3 +105,47 @@ establish demand, price-change or inventory causes by themselves.
 Track recovered category GMV and order volume in any future pilot.
 Review delivery performance and rating as guardrails.
 No intervention or measured business improvement has occurred.
+
+## S06 Category declines require different investigations
+Comparison: May to June 2018, delivered orders.
+
+watches_gifts:
+- Category orders fell from 585 to 444.
+- Category merchandise value per order fell from BRL 204.04 to 191.50.
+- Order-volume effect: -BRL 27,886.01.
+- Category-value effect: -BRL 6,451.40.
+
+garden_tools:
+- Category orders fell from 227 to 148.
+- Category merchandise value per order fell from BRL 166.08 to 121.28.
+- Order-volume effect: -BRL 11,350.64.
+- Category-value effect: -BRL 8,401.43.
+- Average item price fell from BRL 130.91 to 97.55.
+- Product mix must be checked before inferring price changes.
+
+sports_leisure:
+- Both category orders and category merchandise value per order declined.
+
+furniture_decor and cool_stuff:
+- Category orders declined while category merchandise value per order rose.
+- Higher value per order partially offset the order-volume decline.
+- These results do not justify an immediate discount recommendation.
+
+Category merchandise value per order is not total-basket AOV.
+Orders can contain multiple categories.
+The decomposition is arithmetic, not causal.
+
+Evidence:
+- scripts/export_category_drivers.py.
+- docs/category_drivers_may_june_2018.json.
+
+## Recommendation R01 refinement
+Prioritize order-volume investigation for watches_gifts,
+furniture_decor and cool_stuff.
+
+For garden_tools and sports_leisure, investigate both order volume
+and product mix/value per category order.
+
+Compare product and seller contributions before suggesting pricing,
+inventory or marketing interventions. Relevant operational and
+commercial data would be required to establish those causes.
