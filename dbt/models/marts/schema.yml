@@ -102,3 +102,31 @@ models:
   - name: purchasing_customers
     data_tests:
     - not_null
+- name: mart_state_monthly
+  description: Delivered sales and delivery coverage by purchase month and order-associated
+    customer state.
+  columns:
+  - name: purchase_month
+    data_tests:
+    - not_null
+  - name: customer_state
+    data_tests:
+    - not_null
+  - name: merchandise_gmv
+    data_tests:
+    - not_null
+  - name: delivered_orders
+    data_tests:
+    - not_null
+  - name: purchasing_customers
+    data_tests:
+    - not_null
+  - name: aov
+    data_tests:
+    - not_null
+  - name: delivery_date_eligible_orders
+    data_tests:
+    - not_null
+  - name: late_orders
+    data_tests:
+    - not_null

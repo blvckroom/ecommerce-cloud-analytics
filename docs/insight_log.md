@@ -149,3 +149,62 @@ and product mix/value per category order.
 Compare product and seller contributions before suggesting pricing,
 inventory or marketing interventions. Relevant operational and
 commercial data would be required to establish those causes.
+
+## S07 SP and RJ account for the largest May-June regional declines
+Delivered merchandise GMV changes:
+- SP: -BRL 84,031.42.
+- RJ: -BRL 23,978.21.
+- Combined: -BRL 108,009.63.
+- Total net change across all states: -BRL 121,466.83.
+
+Other states include both declines and increases.
+Prioritize SP and RJ for commercial investigation.
+Category and state decompositions overlap and must not be added together.
+
+## S08 RJ combines substantial GMV exposure with elevated delivery lateness
+Window: January 2017 through July 2018, delivered orders.
+
+Overall:
+- Eligible orders: 89,852.
+- Late orders: 6,138.
+- Late delivery rate: approximately 6.83 percent.
+
+RJ:
+- Merchandise GMV: BRL 1,657,663.30.
+- Eligible orders: 11,587.
+- Late orders: 1,453.
+- Late delivery rate: approximately 12.54 percent.
+
+SP:
+- Eligible orders: 37,235.
+- Late orders: 1,532.
+- Late delivery rate: approximately 4.11 percent.
+
+RJ has nearly as many late orders as SP despite a much smaller order volume.
+SP and RJ together account for 2,985 of the 6,138 late orders.
+
+State comparisons are descriptive and may reflect differences in
+seller mix, geography, categories, delivery promises and time periods.
+Full-window lateness does not explain the May-June sales decline by itself.
+
+## Recommendation R02
+Prioritize an operational investigation of RJ, while also reviewing
+SP because of its large absolute number of late orders.
+
+Break down delivery performance by month, seller and category.
+Measure actual delivery duration, delay severity and review outcomes.
+Review whether promised delivery dates are realistic.
+Do not improve the late-rate KPI simply by extending delivery promises.
+
+Pilot evaluation should track:
+- Late delivery rate and affected order count.
+- Median and p90 delivery duration.
+- Review score and low-rating rate.
+- Length of promised delivery time as a guardrail.
+
+No operational intervention or improvement has been measured.
+
+Evidence:
+- scripts/export_state_analysis.py.
+- docs/state_analysis.json.
+- mart_state_monthly and its reconciliation tests.

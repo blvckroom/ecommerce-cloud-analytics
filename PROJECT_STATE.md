@@ -141,3 +141,13 @@ GitHub Actions and Streamlit secrets have not been configured.
 - Evidence: docs/category_drivers_may_june_2018.json.
 - Recommendation R01 refined by category.
 - Next: customer-state contribution analysis, then delivery and reviews.
+
+## Regional analysis verified
+- State monthly mart build passed: 12 resources, no errors or skips.
+- State metrics reconcile to raw and monthly sales.
+- Regional export reconciliation passed.
+- Evidence: docs/state_analysis.json and docs/state_build_results.json.
+- SP and RJ prioritized for sales investigation.
+- RJ prioritized for delivery investigation; SP has high absolute late volume.
+- Recommendation R02 documented with delivery-promise guardrail.
+- Next: delivery duration, delay severity and review analysis.

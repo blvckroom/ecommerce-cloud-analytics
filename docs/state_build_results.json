@@ -1,0 +1,70 @@
+{
+  "generated_at": "2026-10-03T00:24:15.052600Z",
+  "dbt_version": "1.11.15",
+  "status_counts": {
+    "success": 1,
+    "pass": 11
+  },
+  "results": [
+    {
+      "unique_id": "model.ecommerce_cloud_analytics.mart_state_monthly",
+      "status": "success",
+      "failures": null
+    },
+    {
+      "unique_id": "test.ecommerce_cloud_analytics.mart_state_monthly_reconciliation",
+      "status": "pass",
+      "failures": 0
+    },
+    {
+      "unique_id": "test.ecommerce_cloud_analytics.mart_state_monthly_validity",
+      "status": "pass",
+      "failures": 0
+    },
+    {
+      "unique_id": "test.ecommerce_cloud_analytics.mart_state_sales_total",
+      "status": "pass",
+      "failures": 0
+    },
+    {
+      "unique_id": "test.ecommerce_cloud_analytics.not_null_mart_state_monthly_aov.5cb671b699",
+      "status": "pass",
+      "failures": 0
+    },
+    {
+      "unique_id": "test.ecommerce_cloud_analytics.not_null_mart_state_monthly_customer_state.ce27c79ba4",
+      "status": "pass",
+      "failures": 0
+    },
+    {
+      "unique_id": "test.ecommerce_cloud_analytics.not_null_mart_state_monthly_delivered_orders.6713eeb075",
+      "status": "pass",
+      "failures": 0
+    },
+    {
+      "unique_id": "test.ecommerce_cloud_analytics.not_null_mart_state_monthly_delivery_date_eligible_orders.ba77d6b8e9",
+      "status": "pass",
+      "failures": 0
+    },
+    {
+      "unique_id": "test.ecommerce_cloud_analytics.not_null_mart_state_monthly_late_orders.06fe4118fd",
+      "status": "pass",
+      "failures": 0
+    },
+    {
+      "unique_id": "test.ecommerce_cloud_analytics.not_null_mart_state_monthly_merchandise_gmv.2c755abd85",
+      "status": "pass",
+      "failures": 0
+    },
+    {
+      "unique_id": "test.ecommerce_cloud_analytics.not_null_mart_state_monthly_purchase_month.065af1c20d",
+      "status": "pass",
+      "failures": 0
+    },
+    {
+      "unique_id": "test.ecommerce_cloud_analytics.not_null_mart_state_monthly_purchasing_customers.f5802c5d08",
+      "status": "pass",
+      "failures": 0
+    }
+  ]
+}

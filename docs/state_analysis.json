@@ -1,0 +1,478 @@
+{
+  "currency": "BRL",
+  "population": "delivered orders",
+  "purchase_window": "2017-01-01 inclusive to 2018-08-01 exclusive",
+  "geography": "customer state associated with each order",
+  "overview": {
+    "merchandise_gmv": "12342450.49",
+    "delivered_orders": 89860,
+    "delivery_date_eligible_orders": 89852,
+    "late_orders": 6138,
+    "late_rate_pct": "6.831233584116102034456662067"
+  },
+  "may_june_changes": [
+    {
+      "customer_state": "SP",
+      "may_gmv": "424628.36",
+      "june_gmv": "340596.94",
+      "gmv_change": "-84031.42",
+      "growth_pct": "-19.78940360931144589588881911"
+    },
+    {
+      "customer_state": "RJ",
+      "may_gmv": "124102.10",
+      "june_gmv": "100123.89",
+      "gmv_change": "-23978.21",
+      "growth_pct": "-19.32135717284397282560085607"
+    },
+    {
+      "customer_state": "GO",
+      "may_gmv": "23905.25",
+      "june_gmv": "14358.06",
+      "gmv_change": "-9547.19",
+      "growth_pct": "-39.93762876355612260905031322"
+    },
+    {
+      "customer_state": "RS",
+      "may_gmv": "50501.55",
+      "june_gmv": "44093.83",
+      "gmv_change": "-6407.72",
+      "growth_pct": "-12.68816501671730867666437961"
+    },
+    {
+      "customer_state": "DF",
+      "may_gmv": "25182.60",
+      "june_gmv": "19246.82",
+      "gmv_change": "-5935.78",
+      "growth_pct": "-23.57095772477821988198200345"
+    },
+    {
+      "customer_state": "PR",
+      "may_gmv": "46153.08",
+      "june_gmv": "42211.86",
+      "gmv_change": "-3941.22",
+      "growth_pct": "-8.539451754899131325580004628"
+    },
+    {
+      "customer_state": "SC",
+      "may_gmv": "35704.00",
+      "june_gmv": "32740.72",
+      "gmv_change": "-2963.28",
+      "growth_pct": "-8.299574277391888863992829935"
+    },
+    {
+      "customer_state": "MT",
+      "may_gmv": "12261.85",
+      "june_gmv": "10335.29",
+      "gmv_change": "-1926.56",
+      "growth_pct": "-15.71182162561114350607779413"
+    },
+    {
+      "customer_state": "PI",
+      "may_gmv": "6675.71",
+      "june_gmv": "4845.70",
+      "gmv_change": "-1830.01",
+      "growth_pct": "-27.41296431390818354901576012"
+    },
+    {
+      "customer_state": "ES",
+      "may_gmv": "18652.84",
+      "june_gmv": "17102.96",
+      "gmv_change": "-1549.88",
+      "growth_pct": "-8.309083228076796884549484154"
+    },
+    {
+      "customer_state": "MA",
+      "may_gmv": "7084.04",
+      "june_gmv": "5909.48",
+      "gmv_change": "-1174.56",
+      "growth_pct": "-16.58036939373577788945291105"
+    },
+    {
+      "customer_state": "MS",
+      "may_gmv": "9923.06",
+      "june_gmv": "8887.25",
+      "gmv_change": "-1035.81",
+      "growth_pct": "-10.43841315078211761291375846"
+    },
+    {
+      "customer_state": "AC",
+      "may_gmv": "1364.89",
+      "june_gmv": "427.90",
+      "gmv_change": "-936.99",
+      "growth_pct": "-68.64948823714731590091509206"
+    },
+    {
+      "customer_state": "AM",
+      "may_gmv": "1811.80",
+      "june_gmv": "924.72",
+      "gmv_change": "-887.08",
+      "growth_pct": "-48.96125400154542443978364058"
+    },
+    {
+      "customer_state": "AP",
+      "may_gmv": "955.68",
+      "june_gmv": "167.48",
+      "gmv_change": "-788.20",
+      "growth_pct": "-82.47530554160388414532060941"
+    },
+    {
+      "customer_state": "RO",
+      "may_gmv": "2255.24",
+      "june_gmv": "1921.57",
+      "gmv_change": "-333.67",
+      "growth_pct": "-14.79532111881662262109575921"
+    },
+    {
+      "customer_state": "BA",
+      "may_gmv": "34970.44",
+      "june_gmv": "34709.58",
+      "gmv_change": "-260.86",
+      "growth_pct": "-0.7459442889480372566087243969"
+    },
+    {
+      "customer_state": "AL",
+      "may_gmv": "3657.09",
+      "june_gmv": "3730.60",
+      "gmv_change": "73.51",
+      "growth_pct": "2.010068114265713996647607797"
+    },
+    {
+      "customer_state": "PE",
+      "may_gmv": "13584.03",
+      "june_gmv": "14231.94",
+      "gmv_change": "647.91",
+      "growth_pct": "4.769644943363640981358256718"
+    },
+    {
+      "customer_state": "RR",
+      "may_gmv": "89.90",
+      "june_gmv": "1331.99",
+      "gmv_change": "1242.09",
+      "growth_pct": "1381.635150166852057842046719"
+    },
+    {
+      "customer_state": "TO",
+      "may_gmv": "2739.99",
+      "june_gmv": "4049.42",
+      "gmv_change": "1309.43",
+      "growth_pct": "47.78959047295793050339599780"
+    },
+    {
+      "customer_state": "PA",
+      "may_gmv": "7455.64",
+      "june_gmv": "9358.21",
+      "gmv_change": "1902.57",
+      "growth_pct": "25.51853362018552397916208401"
+    },
+    {
+      "customer_state": "SE",
+      "may_gmv": "1083.18",
+      "june_gmv": "3286.22",
+      "gmv_change": "2203.04",
+      "growth_pct": "203.3863254491404937314204472"
+    },
+    {
+      "customer_state": "RN",
+      "may_gmv": "4233.02",
+      "june_gmv": "6493.46",
+      "gmv_change": "2260.44",
+      "growth_pct": "53.40017292618508771515372004"
+    },
+    {
+      "customer_state": "MG",
+      "may_gmv": "101778.35",
+      "june_gmv": "105757.72",
+      "gmv_change": "3979.37",
+      "growth_pct": "3.909839371536284484863431172"
+    },
+    {
+      "customer_state": "CE",
+      "may_gmv": "11930.56",
+      "june_gmv": "16240.42",
+      "gmv_change": "4309.86",
+      "growth_pct": "36.12454067537483571600997774"
+    },
+    {
+      "customer_state": "PB",
+      "may_gmv": "4860.44",
+      "june_gmv": "12993.83",
+      "gmv_change": "8133.39",
+      "growth_pct": "167.3385537111866415386261326"
+    }
+  ],
+  "state_performance": [
+    {
+      "customer_state": "SP",
+      "merchandise_gmv": "4667853.42",
+      "delivered_orders": "37242",
+      "delivery_date_eligible_orders": "37235",
+      "late_orders": "1532",
+      "gmv_share_pct": "37.81950289192531328517405299",
+      "late_rate_pct": "4.114408486638914999328588693",
+      "delivery_date_coverage_pct": "99.98120401697008753557811074"
+    },
+    {
+      "customer_state": "RJ",
+      "merchandise_gmv": "1657663.30",
+      "delivered_orders": "11587",
+      "delivery_date_eligible_orders": "11587",
+      "late_orders": "1453",
+      "gmv_share_pct": "13.43058496643805455524253839",
+      "late_rate_pct": "12.53991542245620091481833089",
+      "delivery_date_coverage_pct": "100"
+    },
+    {
+      "customer_state": "MG",
+      "merchandise_gmv": "1452898.49",
+      "delivered_orders": "10619",
+      "delivery_date_eligible_orders": "10619",
+      "late_orders": "507",
+      "gmv_share_pct": "11.77155615229857000625489242",
+      "late_rate_pct": "4.774460872021847631603729165",
+      "delivery_date_coverage_pct": "100"
+    },
+    {
+      "customer_state": "RS",
+      "merchandise_gmv": "683529.45",
+      "delivered_orders": "5035",
+      "delivery_date_eligible_orders": "5034",
+      "late_orders": "316",
+      "gmv_share_pct": "5.538036798720024681257603327",
+      "late_rate_pct": "6.277314263011521652761223679",
+      "delivery_date_coverage_pct": "99.98013902681231380337636544"
+    },
+    {
+      "customer_state": "PR",
+      "merchandise_gmv": "625547.60",
+      "delivered_orders": "4576",
+      "delivery_date_eligible_orders": "4576",
+      "late_orders": "189",
+      "gmv_share_pct": "5.068260962495463086925455433",
+      "late_rate_pct": "4.130244755244755244755244755",
+      "delivery_date_coverage_pct": "100"
+    },
+    {
+      "customer_state": "SC",
+      "merchandise_gmv": "472553.14",
+      "delivered_orders": "3336",
+      "delivery_date_eligible_orders": "3336",
+      "late_orders": "285",
+      "gmv_share_pct": "3.828681673731388814345570042",
+      "late_rate_pct": "8.543165467625899280575539568",
+      "delivery_date_coverage_pct": "100"
+    },
+    {
+      "customer_state": "BA",
+      "merchandise_gmv": "472225.41",
+      "delivered_orders": "3094",
+      "delivery_date_eligible_orders": "3094",
+      "late_orders": "395",
+      "gmv_share_pct": "3.826026366341130042483160084",
+      "late_rate_pct": "12.76664511958629605688429218",
+      "delivery_date_coverage_pct": "100"
+    },
+    {
+      "customer_state": "DF",
+      "merchandise_gmv": "275573.04",
+      "delivered_orders": "1931",
+      "delivery_date_eligible_orders": "1931",
+      "late_orders": "113",
+      "gmv_share_pct": "2.232725504738889173376785407",
+      "late_rate_pct": "5.851890212325220093215950285",
+      "delivery_date_coverage_pct": "100"
+    },
+    {
+      "customer_state": "GO",
+      "merchandise_gmv": "263903.22",
+      "delivered_orders": "1833",
+      "delivery_date_eligible_orders": "1833",
+      "late_orders": "125",
+      "gmv_share_pct": "2.138175236869027942926753438",
+      "late_rate_pct": "6.819421713038734315330060011",
+      "delivery_date_coverage_pct": "100"
+    },
+    {
+      "customer_state": "ES",
+      "merchandise_gmv": "251336.62",
+      "delivered_orders": "1889",
+      "delivery_date_eligible_orders": "1889",
+      "late_orders": "214",
+      "gmv_share_pct": "2.036359150912826550054080873",
+      "late_rate_pct": "11.32874536791953414505029116",
+      "delivery_date_coverage_pct": "100"
+    },
+    {
+      "customer_state": "PE",
+      "merchandise_gmv": "238991.66",
+      "delivered_orders": "1504",
+      "delivery_date_eligible_orders": "1504",
+      "late_orders": "149",
+      "gmv_share_pct": "1.936338818564707890515508157",
+      "late_rate_pct": "9.906914893617021276595744681",
+      "delivery_date_coverage_pct": "100"
+    },
+    {
+      "customer_state": "CE",
+      "merchandise_gmv": "208650.66",
+      "delivered_orders": "1218",
+      "delivery_date_eligible_orders": "1218",
+      "late_orders": "176",
+      "gmv_share_pct": "1.690512432430263692311558140",
+      "late_rate_pct": "14.44991789819376026272577997",
+      "delivery_date_coverage_pct": "100"
+    },
+    {
+      "customer_state": "PA",
+      "merchandise_gmv": "164454.21",
+      "delivered_orders": "899",
+      "delivery_date_eligible_orders": "899",
+      "late_orders": "106",
+      "gmv_share_pct": "1.332427544540225253113411517",
+      "late_rate_pct": "11.79087875417130144605116796",
+      "delivery_date_coverage_pct": "100"
+    },
+    {
+      "customer_state": "MT",
+      "merchandise_gmv": "147524.58",
+      "delivered_orders": "846",
+      "delivery_date_eligible_orders": "846",
+      "late_orders": "53",
+      "gmv_share_pct": "1.195261671250179752594656752",
+      "late_rate_pct": "6.264775413711583924349881797",
+      "delivery_date_coverage_pct": "100"
+    },
+    {
+      "customer_state": "MA",
+      "merchandise_gmv": "112160.82",
+      "delivered_orders": "684",
+      "delivery_date_eligible_orders": "684",
+      "late_orders": "123",
+      "gmv_share_pct": "0.9087402869541508689495257599",
+      "late_rate_pct": "17.98245614035087719298245614",
+      "delivery_date_coverage_pct": "100"
+    },
+    {
+      "customer_state": "MS",
+      "merchandise_gmv": "109878.54",
+      "delivered_orders": "666",
+      "delivery_date_eligible_orders": "666",
+      "late_orders": "58",
+      "gmv_share_pct": "0.8902489832875967242385105974",
+      "late_rate_pct": "8.708708708708708708708708709",
+      "delivery_date_coverage_pct": "100"
+    },
+    {
+      "customer_state": "PB",
+      "merchandise_gmv": "104867.29",
+      "delivered_orders": "488",
+      "delivery_date_eligible_orders": "488",
+      "late_orders": "52",
+      "gmv_share_pct": "0.8496472405132572664668635021",
+      "late_rate_pct": "10.65573770491803278688524590",
+      "delivery_date_coverage_pct": "100"
+    },
+    {
+      "customer_state": "PI",
+      "merchandise_gmv": "81587.77",
+      "delivered_orders": "455",
+      "delivery_date_eligible_orders": "455",
+      "late_orders": "66",
+      "gmv_share_pct": "0.6610338041550450651230442975",
+      "late_rate_pct": "14.50549450549450549450549451",
+      "delivery_date_coverage_pct": "100"
+    },
+    {
+      "customer_state": "AL",
+      "merchandise_gmv": "76552.45",
+      "delivered_orders": "380",
+      "delivery_date_eligible_orders": "380",
+      "late_orders": "85",
+      "gmv_share_pct": "0.6202370433814881764212772629",
+      "late_rate_pct": "22.36842105263157894736842105",
+      "delivery_date_coverage_pct": "100"
+    },
+    {
+      "customer_state": "RN",
+      "merchandise_gmv": "76140.60",
+      "delivered_orders": "450",
+      "delivery_date_eligible_orders": "450",
+      "late_orders": "44",
+      "gmv_share_pct": "0.6169001857588168457785727768",
+      "late_rate_pct": "9.777777777777777777777777778",
+      "delivery_date_coverage_pct": "100"
+    },
+    {
+      "customer_state": "SE",
+      "merchandise_gmv": "51730.70",
+      "delivered_orders": "309",
+      "delivery_date_eligible_orders": "309",
+      "late_orders": "51",
+      "gmv_share_pct": "0.4191282763654821028980283153",
+      "late_rate_pct": "16.50485436893203883495145631",
+      "delivery_date_coverage_pct": "100"
+    },
+    {
+      "customer_state": "TO",
+      "merchandise_gmv": "46476.54",
+      "delivered_orders": "261",
+      "delivery_date_eligible_orders": "261",
+      "late_orders": "25",
+      "gmv_share_pct": "0.3765584479164477491049672422",
+      "late_rate_pct": "9.578544061302681992337164751",
+      "delivery_date_coverage_pct": "100"
+    },
+    {
+      "customer_state": "RO",
+      "merchandise_gmv": "42892.98",
+      "delivered_orders": "235",
+      "delivery_date_eligible_orders": "235",
+      "late_orders": "7",
+      "gmv_share_pct": "0.3475240191139709404659722479",
+      "late_rate_pct": "2.978723404255319148936170213",
+      "delivery_date_coverage_pct": "100"
+    },
+    {
+      "customer_state": "AM",
+      "merchandise_gmv": "21775.14",
+      "delivered_orders": "141",
+      "delivery_date_eligible_orders": "141",
+      "late_orders": "4",
+      "gmv_share_pct": "0.1764247708965288302323179908",
+      "late_rate_pct": "2.836879432624113475177304965",
+      "delivery_date_coverage_pct": "100"
+    },
+    {
+      "customer_state": "AC",
+      "merchandise_gmv": "15484.28",
+      "delivered_orders": "77",
+      "delivery_date_eligible_orders": "77",
+      "late_orders": "3",
+      "gmv_share_pct": "0.1254554759003939095404060235",
+      "late_rate_pct": "3.896103896103896103896103896",
+      "delivery_date_coverage_pct": "100"
+    },
+    {
+      "customer_state": "AP",
+      "merchandise_gmv": "13180.81",
+      "delivered_orders": "65",
+      "delivery_date_eligible_orders": "65",
+      "late_orders": "2",
+      "gmv_share_pct": "0.1067924883367306098061568971",
+      "late_rate_pct": "3.076923076923076923076923077",
+      "delivery_date_coverage_pct": "100"
+    },
+    {
+      "customer_state": "RR",
+      "merchandise_gmv": "7017.77",
+      "delivered_orders": "40",
+      "delivery_date_eligible_orders": "40",
+      "late_orders": "5",
+      "gmv_share_pct": "0.05685880616402618439833012447",
+      "late_rate_pct": "12.500",
+      "delivery_date_coverage_pct": "100"
+    }
+  ],
+  "reconciliation": "PASS",
+  "limitations": "Sales changes and delivery rates are descriptive. They do not establish that late delivery caused sales decline."
+}
