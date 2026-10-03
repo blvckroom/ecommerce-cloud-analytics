@@ -1,0 +1,552 @@
+{
+  "summary": {
+    "currency": "BRL",
+    "comparison": "May to June 2018",
+    "population": "delivered orders",
+    "net_gmv_change": "-121466.83",
+    "gross_decline": "175462.79",
+    "gross_increase": "53995.96",
+    "declining_categories": 41,
+    "increasing_categories": 26,
+    "top_five_share_of_gross_decline_pct": "51.68068397863729398124810394",
+    "reconciliation": "PASS"
+  },
+  "categories": [
+    {
+      "category_name": "watches_gifts",
+      "may_gmv": "119364.98",
+      "june_gmv": "85027.57",
+      "gmv_change": "-34337.41",
+      "gmv_growth_pct": "-28.76673711167211689726752352",
+      "share_of_gross_decline_pct": "19.56962499000500334002440062"
+    },
+    {
+      "category_name": "garden_tools",
+      "may_gmv": "37700.79",
+      "june_gmv": "17948.72",
+      "gmv_change": "-19752.07",
+      "gmv_growth_pct": "-52.39166075830241223061904008",
+      "share_of_gross_decline_pct": "11.25712750834521666958561414"
+    },
+    {
+      "category_name": "sports_leisure",
+      "may_gmv": "59209.92",
+      "june_gmv": "44916.01",
+      "gmv_change": "-14293.91",
+      "gmv_growth_pct": "-24.14107298236511719657787074",
+      "share_of_gross_decline_pct": "8.146405286271807258963567147"
+    },
+    {
+      "category_name": "furniture_decor",
+      "may_gmv": "53706.45",
+      "june_gmv": "42042.22",
+      "gmv_change": "-11664.23",
+      "gmv_growth_pct": "-21.71849005100877082734010533",
+      "share_of_gross_decline_pct": "6.647694363004258623723012725"
+    },
+    {
+      "category_name": "cool_stuff",
+      "may_gmv": "29949.12",
+      "june_gmv": "19316.37",
+      "gmv_change": "-10632.75",
+      "gmv_growth_pct": "-35.50271260057056768279001186",
+      "share_of_gross_decline_pct": "6.059831831011008088951509320"
+    },
+    {
+      "category_name": "toys",
+      "may_gmv": "31538.41",
+      "june_gmv": "21094.95",
+      "gmv_change": "-10443.46",
+      "gmv_growth_pct": "-33.11346386834339460993753331",
+      "share_of_gross_decline_pct": "5.951951408044976373623148247"
+    },
+    {
+      "category_name": "computers_accessories",
+      "may_gmv": "50631.83",
+      "june_gmv": "41806.37",
+      "gmv_change": "-8825.46",
+      "gmv_growth_pct": "-17.43065577523071949009150963",
+      "share_of_gross_decline_pct": "5.029818572929337325594788502"
+    },
+    {
+      "category_name": "office_furniture",
+      "may_gmv": "20835.87",
+      "june_gmv": "12125.58",
+      "gmv_change": "-8710.29",
+      "gmv_growth_pct": "-41.80430190819965760968944421",
+      "share_of_gross_decline_pct": "4.964180724585537480624809397"
+    },
+    {
+      "category_name": "housewares",
+      "may_gmv": "62824.57",
+      "june_gmv": "55912.61",
+      "gmv_change": "-6911.96",
+      "gmv_growth_pct": "-11.00200128707605957350762608",
+      "share_of_gross_decline_pct": "3.939273962302776560204018185"
+    },
+    {
+      "category_name": "small_appliances_home_oven_and_coffee",
+      "may_gmv": "10161.60",
+      "june_gmv": "3499.00",
+      "gmv_change": "-6662.60",
+      "gmv_growth_pct": "-65.56644622894032435836876083",
+      "share_of_gross_decline_pct": "3.797158360470616020638905833"
+    },
+    {
+      "category_name": "electronics",
+      "may_gmv": "16176.79",
+      "june_gmv": "9664.57",
+      "gmv_change": "-6512.22",
+      "gmv_growth_pct": "-40.25656511582334937895589916",
+      "share_of_gross_decline_pct": "3.711453579417037652256640852"
+    },
+    {
+      "category_name": "home_appliances_2",
+      "may_gmv": "14441.24",
+      "june_gmv": "8312.72",
+      "gmv_change": "-6128.52",
+      "gmv_growth_pct": "-42.43763000961136301314845540",
+      "share_of_gross_decline_pct": "3.492774735885597168493673217"
+    },
+    {
+      "category_name": "fashion_bags_accessories",
+      "may_gmv": "11490.17",
+      "june_gmv": "7869.95",
+      "gmv_change": "-3620.22",
+      "gmv_growth_pct": "-31.50710563899402706835495036",
+      "share_of_gross_decline_pct": "2.063240872893905311775790183"
+    },
+    {
+      "category_name": "construction_tools_safety",
+      "may_gmv": "6045.01",
+      "june_gmv": "2565.37",
+      "gmv_change": "-3479.64",
+      "gmv_growth_pct": "-57.56218765560354738867264074",
+      "share_of_gross_decline_pct": "1.983121321620384584104698210"
+    },
+    {
+      "category_name": "baby",
+      "may_gmv": "33253.65",
+      "june_gmv": "30550.32",
+      "gmv_change": "-2703.33",
+      "gmv_growth_pct": "-8.129423386605680880143984194",
+      "share_of_gross_decline_pct": "1.540685634828900190177074011"
+    },
+    {
+      "category_name": "books_general_interest",
+      "may_gmv": "5925.13",
+      "june_gmv": "3275.49",
+      "gmv_change": "-2649.64",
+      "gmv_growth_pct": "-44.71868127787913514133867105",
+      "share_of_gross_decline_pct": "1.510086554533870115709433322"
+    },
+    {
+      "category_name": "musical_instruments",
+      "may_gmv": "18757.07",
+      "june_gmv": "16177.92",
+      "gmv_change": "-2579.15",
+      "gmv_growth_pct": "-13.75028189370727944183179996",
+      "share_of_gross_decline_pct": "1.469912794615884085736924621"
+    },
+    {
+      "category_name": "portateis_cozinha_e_preparadores_de_alimentos",
+      "may_gmv": "1958.00",
+      "june_gmv": "0",
+      "gmv_change": "-1958.00",
+      "gmv_growth_pct": "-100",
+      "share_of_gross_decline_pct": "1.115906113199271480864974277"
+    },
+    {
+      "category_name": "cine_photo",
+      "may_gmv": "2108.29",
+      "june_gmv": "435.85",
+      "gmv_change": "-1672.44",
+      "gmv_growth_pct": "-79.32684782454026723078893321",
+      "share_of_gross_decline_pct": "0.9531593564652653705096106132"
+    },
+    {
+      "category_name": "luggage_accessories",
+      "may_gmv": "6618.46",
+      "june_gmv": "5070.88",
+      "gmv_change": "-1547.58",
+      "gmv_growth_pct": "-23.38278088860550641690060830",
+      "share_of_gross_decline_pct": "0.8819989696960820012037879940"
+    },
+    {
+      "category_name": "books_technical",
+      "may_gmv": "3040.53",
+      "june_gmv": "1747.43",
+      "gmv_change": "-1293.10",
+      "gmv_growth_pct": "-42.52876965529036056213883764",
+      "share_of_gross_decline_pct": "0.7369653702645444085324301523"
+    },
+    {
+      "category_name": "industry_commerce_and_business",
+      "may_gmv": "3780.99",
+      "june_gmv": "2609.90",
+      "gmv_change": "-1171.09",
+      "gmv_growth_pct": "-30.97310492754543122303946850",
+      "share_of_gross_decline_pct": "0.6674292595028267816783262138"
+    },
+    {
+      "category_name": "home_construction",
+      "may_gmv": "10155.28",
+      "june_gmv": "9094.59",
+      "gmv_change": "-1060.69",
+      "gmv_growth_pct": "-10.44471447365311443899134243",
+      "share_of_gross_decline_pct": "0.6045099362662590740749078480"
+    },
+    {
+      "category_name": "food_drink",
+      "may_gmv": "1239.44",
+      "june_gmv": "293.85",
+      "gmv_change": "-945.59",
+      "gmv_growth_pct": "-76.29171238623894662105466985",
+      "share_of_gross_decline_pct": "0.5389119824208882122528656931"
+    },
+    {
+      "category_name": "drinks",
+      "may_gmv": "2505.99",
+      "june_gmv": "1567.07",
+      "gmv_change": "-938.92",
+      "gmv_growth_pct": "-37.46702899851954716499267754",
+      "share_of_gross_decline_pct": "0.5351106066420122465851591668"
+    },
+    {
+      "category_name": "audio",
+      "may_gmv": "2697.68",
+      "june_gmv": "1830.69",
+      "gmv_change": "-866.99",
+      "gmv_growth_pct": "-32.13835592064292280774591501",
+      "share_of_gross_decline_pct": "0.4941161598992014204265189218"
+    },
+    {
+      "category_name": "Unknown",
+      "may_gmv": "3097.04",
+      "june_gmv": "2387.13",
+      "gmv_change": "-709.91",
+      "gmv_growth_pct": "-22.92220959367654276341280707",
+      "share_of_gross_decline_pct": "0.4045929054245632364560030078"
+    },
+    {
+      "category_name": "music",
+      "may_gmv": "729.00",
+      "june_gmv": "109.08",
+      "gmv_change": "-619.92",
+      "gmv_growth_pct": "-85.03703703703703703703703704",
+      "share_of_gross_decline_pct": "0.3533056780870747581296296497"
+    },
+    {
+      "category_name": "bed_bath_table",
+      "may_gmv": "71265.07",
+      "june_gmv": "70857.08",
+      "gmv_change": "-407.99",
+      "gmv_growth_pct": "-0.5724964558373407898147016484",
+      "share_of_gross_decline_pct": "0.2325222344862976360970893031"
+    },
+    {
+      "category_name": "market_place",
+      "may_gmv": "957.45",
+      "june_gmv": "556.46",
+      "gmv_change": "-400.99",
+      "gmv_growth_pct": "-41.88103817431719672045537626",
+      "share_of_gross_decline_pct": "0.2285327846433993213033942980"
+    },
+    {
+      "category_name": "fashion_shoes",
+      "may_gmv": "1582.70",
+      "june_gmv": "1230.58",
+      "gmv_change": "-352.12",
+      "gmv_growth_pct": "-22.24805711758387565552536804",
+      "share_of_gross_decline_pct": "0.2006807255259078007365550269"
+    },
+    {
+      "category_name": "home_confort",
+      "may_gmv": "2708.70",
+      "june_gmv": "2386.49",
+      "gmv_change": "-322.21",
+      "gmv_growth_pct": "-11.89537416472846753054971019",
+      "share_of_gross_decline_pct": "0.1836343762686094299537810837"
+    },
+    {
+      "category_name": "home_appliances",
+      "may_gmv": "6149.67",
+      "june_gmv": "5830.38",
+      "gmv_change": "-319.29",
+      "gmv_growth_pct": "-5.191985911439150393435745333",
+      "share_of_gross_decline_pct": "0.1819702057627147043541254530"
+    },
+    {
+      "category_name": "costruction_tools_garden",
+      "may_gmv": "1073.28",
+      "june_gmv": "799.44",
+      "gmv_change": "-273.84",
+      "gmv_growth_pct": "-25.51431127012522361359570662",
+      "share_of_gross_decline_pct": "0.1560672778541820747293485986"
+    },
+    {
+      "category_name": "christmas_supplies",
+      "may_gmv": "524.53",
+      "june_gmv": "306.19",
+      "gmv_change": "-218.34",
+      "gmv_growth_pct": "-41.62583646311936400205898614",
+      "share_of_gross_decline_pct": "0.1244366398140597217221953441"
+    },
+    {
+      "category_name": "food",
+      "may_gmv": "1542.93",
+      "june_gmv": "1371.18",
+      "gmv_change": "-171.75",
+      "gmv_growth_pct": "-11.13141879411250024304407847",
+      "share_of_gross_decline_pct": "0.09788400150254079511673101744"
+    },
+    {
+      "category_name": "arts_and_craftmanship",
+      "may_gmv": "89.80",
+      "june_gmv": "0",
+      "gmv_change": "-89.80",
+      "gmv_growth_pct": "-100",
+      "share_of_gross_decline_pct": "0.05117894227032409549625877943"
+    },
+    {
+      "category_name": "fashion_underwear_beach",
+      "may_gmv": "207.40",
+      "june_gmv": "129.30",
+      "gmv_change": "-78.10",
+      "gmv_growth_pct": "-37.65670202507232401157184185",
+      "share_of_gross_decline_pct": "0.04451086181862262648393998522"
+    },
+    {
+      "category_name": "stationery",
+      "may_gmv": "12923.39",
+      "june_gmv": "12859.08",
+      "gmv_change": "-64.31",
+      "gmv_growth_pct": "-0.4976248492075221749092149970",
+      "share_of_gross_decline_pct": "0.03665164562811294634036082522"
+    },
+    {
+      "category_name": "dvds_blu_ray",
+      "may_gmv": "439.94",
+      "june_gmv": "382.88",
+      "gmv_change": "-57.06",
+      "gmv_growth_pct": "-12.96995044778833477292358049",
+      "share_of_gross_decline_pct": "0.03251971543368254887546242710"
+    },
+    {
+      "category_name": "party_supplies",
+      "may_gmv": "100.70",
+      "june_gmv": "84.80",
+      "gmv_change": "-15.90",
+      "gmv_growth_pct": "-15.78947368421052631578947368",
+      "share_of_gross_decline_pct": "0.009061750357440457888535797248"
+    },
+    {
+      "category_name": "tablets_printing_image",
+      "may_gmv": "49.90",
+      "june_gmv": "50.00",
+      "gmv_change": "0.10",
+      "gmv_growth_pct": "0.2004008016032064128256513026",
+      "share_of_gross_decline_pct": null
+    },
+    {
+      "category_name": "art",
+      "may_gmv": "2491.97",
+      "june_gmv": "2500.14",
+      "gmv_change": "8.17",
+      "gmv_growth_pct": "0.3278530640417019466526483064",
+      "share_of_gross_decline_pct": null
+    },
+    {
+      "category_name": "home_comfort_2",
+      "may_gmv": "0",
+      "june_gmv": "25.80",
+      "gmv_change": "25.80",
+      "gmv_growth_pct": null,
+      "share_of_gross_decline_pct": null
+    },
+    {
+      "category_name": "books_imported",
+      "may_gmv": "410.92",
+      "june_gmv": "468.17",
+      "gmv_change": "57.25",
+      "gmv_growth_pct": "13.93215224374574126350627859",
+      "share_of_gross_decline_pct": null
+    },
+    {
+      "category_name": "furniture_bedroom",
+      "may_gmv": "1484.98",
+      "june_gmv": "1559.99",
+      "gmv_change": "75.01",
+      "gmv_growth_pct": "5.051246481434093388463144285",
+      "share_of_gross_decline_pct": null
+    },
+    {
+      "category_name": "fashion_childrens_clothes",
+      "may_gmv": "0",
+      "june_gmv": "89.99",
+      "gmv_change": "89.99",
+      "gmv_growth_pct": null,
+      "share_of_gross_decline_pct": null
+    },
+    {
+      "category_name": "flowers",
+      "may_gmv": "16.40",
+      "june_gmv": "108.00",
+      "gmv_change": "91.60",
+      "gmv_growth_pct": "558.5365853658536585365853659",
+      "share_of_gross_decline_pct": null
+    },
+    {
+      "category_name": "costruction_tools_tools",
+      "may_gmv": "417.90",
+      "june_gmv": "527.00",
+      "gmv_change": "109.10",
+      "gmv_growth_pct": "26.10672409667384541756401053",
+      "share_of_gross_decline_pct": null
+    },
+    {
+      "category_name": "diapers_and_hygiene",
+      "may_gmv": "117.00",
+      "june_gmv": "321.00",
+      "gmv_change": "204.00",
+      "gmv_growth_pct": "174.3589743589743589743589744",
+      "share_of_gross_decline_pct": null
+    },
+    {
+      "category_name": "construction_tools_lights",
+      "may_gmv": "4354.81",
+      "june_gmv": "4583.41",
+      "gmv_change": "228.60",
+      "gmv_growth_pct": "5.249367940277532200027096475",
+      "share_of_gross_decline_pct": null
+    },
+    {
+      "category_name": "fixed_telephony",
+      "may_gmv": "1846.20",
+      "june_gmv": "2080.32",
+      "gmv_change": "234.12",
+      "gmv_growth_pct": "12.68118297042573935651608710",
+      "share_of_gross_decline_pct": null
+    },
+    {
+      "category_name": "agro_industry_and_commerce",
+      "may_gmv": "3279.75",
+      "june_gmv": "3515.80",
+      "gmv_change": "236.05",
+      "gmv_growth_pct": "7.197194908148486927357268084",
+      "share_of_gross_decline_pct": null
+    },
+    {
+      "category_name": "fashion_male_clothing",
+      "may_gmv": "129.99",
+      "june_gmv": "447.80",
+      "gmv_change": "317.81",
+      "gmv_growth_pct": "244.4880375413493345641972459",
+      "share_of_gross_decline_pct": null
+    },
+    {
+      "category_name": "furniture_living_room",
+      "may_gmv": "2721.08",
+      "june_gmv": "3541.62",
+      "gmv_change": "820.54",
+      "gmv_growth_pct": "30.15493848030928895879577227",
+      "share_of_gross_decline_pct": null
+    },
+    {
+      "category_name": "kitchen_dining_laundry_garden_furniture",
+      "may_gmv": "2310.09",
+      "june_gmv": "3538.43",
+      "gmv_change": "1228.34",
+      "gmv_growth_pct": "53.17282010657593427095914012",
+      "share_of_gross_decline_pct": null
+    },
+    {
+      "category_name": "consoles_games",
+      "may_gmv": "5279.27",
+      "june_gmv": "6903.01",
+      "gmv_change": "1623.74",
+      "gmv_growth_pct": "30.75690389012117205598501308",
+      "share_of_gross_decline_pct": null
+    },
+    {
+      "category_name": "air_conditioning",
+      "may_gmv": "1851.30",
+      "june_gmv": "3567.90",
+      "gmv_change": "1716.60",
+      "gmv_growth_pct": "92.72403176146491654513044887",
+      "share_of_gross_decline_pct": null
+    },
+    {
+      "category_name": "construction_tools_construction",
+      "may_gmv": "20748.60",
+      "june_gmv": "22947.72",
+      "gmv_change": "2199.12",
+      "gmv_growth_pct": "10.59888378011046528440473092",
+      "share_of_gross_decline_pct": null
+    },
+    {
+      "category_name": "perfumery",
+      "may_gmv": "24482.70",
+      "june_gmv": "26963.93",
+      "gmv_change": "2481.23",
+      "gmv_growth_pct": "10.13462567445584024637805471",
+      "share_of_gross_decline_pct": null
+    },
+    {
+      "category_name": "telephony",
+      "may_gmv": "18944.28",
+      "june_gmv": "22669.86",
+      "gmv_change": "3725.58",
+      "gmv_growth_pct": "19.66598888952232547238533214",
+      "share_of_gross_decline_pct": null
+    },
+    {
+      "category_name": "auto",
+      "may_gmv": "40851.44",
+      "june_gmv": "44962.59",
+      "gmv_change": "4111.15",
+      "gmv_growth_pct": "10.06365993463143526886689918",
+      "share_of_gross_decline_pct": null
+    },
+    {
+      "category_name": "computers",
+      "may_gmv": "8699.92",
+      "june_gmv": "13127.00",
+      "gmv_change": "4427.08",
+      "gmv_growth_pct": "50.88644493282696852384849516",
+      "share_of_gross_decline_pct": null
+    },
+    {
+      "category_name": "small_appliances",
+      "may_gmv": "10620.99",
+      "june_gmv": "15431.63",
+      "gmv_change": "4810.64",
+      "gmv_growth_pct": "45.29370614227110655409712277",
+      "share_of_gross_decline_pct": null
+    },
+    {
+      "category_name": "signaling_and_security",
+      "may_gmv": "683.50",
+      "june_gmv": "5863.18",
+      "gmv_change": "5179.68",
+      "gmv_growth_pct": "757.8171177761521580102414045",
+      "share_of_gross_decline_pct": null
+    },
+    {
+      "category_name": "pet_shop",
+      "may_gmv": "11708.46",
+      "june_gmv": "19491.78",
+      "gmv_change": "7783.32",
+      "gmv_growth_pct": "66.47603527705607740044378168",
+      "share_of_gross_decline_pct": null
+    },
+    {
+      "category_name": "health_beauty",
+      "may_gmv": "94534.38",
+      "june_gmv": "106745.72",
+      "gmv_change": "12211.34",
+      "gmv_growth_pct": "12.91735345384398776402828262",
+      "share_of_gross_decline_pct": null
+    }
+  ]
+}

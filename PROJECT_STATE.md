@@ -124,3 +124,12 @@ GitHub Actions and Streamlit secrets have not been configured.
 - Evidence: docs/sales_results.json and docs/sales_build_results.json.
 - Three initial findings documented in docs/insight_log.md.
 - Next: category and customer-state contributions, prioritizing May-June 2018.
+
+## Item and category analysis verified
+- fct_order_items build passed: 16 resources, no errors or skips.
+- Category monthly mart build passed: 10 resources, no errors or skips.
+- Item and category merchandise totals reconcile to source and sales.
+- May-June category changes reconcile exactly to -BRL 121,466.83.
+- Five initial findings and one preliminary recommendation documented.
+- Evidence: docs/category_changes_may_june_2018.json.
+- Next: investigate category drivers and customer-state contributions.

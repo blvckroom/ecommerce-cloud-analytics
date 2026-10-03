@@ -59,3 +59,49 @@ The decomposition is an arithmetic attribution of GMV = orders * AOV.
 Order statuses reflect the final historical snapshot.
 Monthly customer counts cannot be summed to obtain full-period customers.
 These findings do not demonstrate business impact from an intervention.
+
+## S04 Five categories account for 51.68 percent of gross GMV decline
+Comparison: May to June 2018, delivered orders.
+
+- Gross decline across 41 declining categories: BRL 175,462.79.
+- Gross increase across 26 increasing categories: BRL 53,995.96.
+- Net change: -BRL 121,466.83, reconciled to the sales mart.
+- The five largest declining categories account for 51.68 percent
+  of gross decline.
+
+Largest declines:
+1. watches_gifts: -BRL 34,337.41.
+2. garden_tools: -BRL 19,752.07.
+3. sports_leisure: -BRL 14,293.91.
+4. furniture_decor: -BRL 11,664.23.
+5. cool_stuff: -BRL 10,632.75.
+
+Prioritize these categories for further investigation.
+This concentration does not identify the cause of the decline.
+
+## S05 Category movements are mixed, not uniformly negative
+health_beauty increased BRL 12,211.34, or 12.92 percent,
+offsetting part of the declines elsewhere.
+
+signaling_and_security increased 757.82 percent but from a May base
+of only BRL 683.50, producing an absolute increase of BRL 5,179.68.
+Use absolute GMV contributions alongside growth percentages
+when prioritizing categories.
+
+Evidence:
+- scripts/export_category_changes.py.
+- docs/category_changes_may_june_2018.json.
+- mart_category_monthly and its raw reconciliation tests.
+
+## Preliminary recommendation R01
+Investigate watches_gifts and garden_tools first, followed by the
+remaining three largest declining categories.
+
+Check category order count, category merchandise value per order,
+item count, average item price and product/seller concentration.
+These checks help distinguish arithmetic drivers; they do not
+establish demand, price-change or inventory causes by themselves.
+
+Track recovered category GMV and order volume in any future pilot.
+Review delivery performance and rating as guardrails.
+No intervention or measured business improvement has occurred.
