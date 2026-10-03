@@ -151,3 +151,12 @@ GitHub Actions and Streamlit secrets have not been configured.
 - RJ prioritized for delivery investigation; SP has high absolute late volume.
 - Recommendation R02 documented with delivery-promise guardrail.
 - Next: delivery duration, delay severity and review analysis.
+
+## Delivery analysis completed
+
+- mart_delivery_orders selected build: PASS=12, WARN=0, ERROR=0, SKIP=0.
+- Export: docs/delivery_analysis.json; reconciliation PASS.
+- Analysis window: 89,860 delivered orders; 89,852 date-eligible;
+  6,138 late orders; late rate 6.83%.
+- Documented delivery/rating association and review-timing sensitivity.
+- Recorded regional operational priorities and interpretation limits.

@@ -130,3 +130,41 @@ models:
   - name: late_orders
     data_tests:
     - not_null
+- name: mart_delivery_orders
+  description: One row per delivered order in the analytical purchase window, including
+    orders with missing delivery dates.
+  columns:
+  - name: order_id
+    data_tests:
+    - unique
+    - not_null
+    - relationships:
+        arguments:
+          to: ref('fct_orders')
+          field: order_id
+  - name: customer_unique_id
+    data_tests:
+    - not_null
+  - name: purchased_at
+    data_tests:
+    - not_null
+  - name: merchandise_value
+    data_tests:
+    - not_null
+  - name: delivery_date_eligible
+    data_tests:
+    - not_null
+  - name: missing_review
+    data_tests:
+    - not_null
+  - name: review_score
+    data_tests:
+    - accepted_values:
+        arguments:
+          values:
+          - 1
+          - 2
+          - 3
+          - 4
+          - 5
+          quote: false

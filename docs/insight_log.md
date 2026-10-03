@@ -208,3 +208,53 @@ Evidence:
 - scripts/export_state_analysis.py.
 - docs/state_analysis.json.
 - mart_state_monthly and its reconciliation tests.
+
+## S09 — Delivery timeliness and customer ratings
+
+Scope: delivered orders purchased from 2017-01-01 inclusive to
+2018-08-01 exclusive. Source: docs/delivery_analysis.json.
+
+Of 89,860 delivered orders, 89,852 had sufficient dates to classify
+timeliness. There were 6,138 late orders (6.83%). Eight orders were
+excluded from the timeliness denominator because of missing dates.
+
+Median delivery duration was 10.62 days; P90 was 23.61 days.
+Among late orders, median calendar days late was 7 and P90 was 23.
+
+Among orders with a selected review, late orders had an average
+score of 2.22 versus 4.28 for on-time orders. The share of scores
+1–2 was 63.69% versus 9.38%, a gap of 54.31 percentage points.
+
+This is an observed association, not a causal estimate.
+Ratings may also reflect product, seller, service and other factors.
+
+## S10 — Review timing materially changes the comparison
+
+Restricting selected reviews to answer timestamps at or after actual
+delivery reduced the reviewed late-order sample from 5,993 to 1,702.
+
+In this subset, low-rating shares were 20.09% for late orders and
+9.36% for on-time orders, a gap of 10.73 percentage points.
+Average scores were 3.69 and 4.28 respectively.
+
+The association remained, but its magnitude changed substantially.
+This restriction changes sample composition and must not be treated
+as an unbiased replacement for the full reviewed population.
+Answer timestamp does not establish when the review was first created.
+
+## R03 — Investigate late delivery with review-timing safeguards
+
+Prioritize RJ for its 12.54% late rate and median delay of 10 calendar
+days. Also investigate SP, which had 1,532 late orders compared with
+1,453 in RJ despite a lower late rate of 4.11%.
+
+Segment patterns by purchase month, seller and product category
+before assigning operational causes. Present both full-sample and
+review-timing sensitivity results.
+
+Monitor actual delivery duration and days late alongside promised
+delivery duration. Extending delivery promises alone should not
+be interpreted as improved fulfillment.
+
+Do not infer that late delivery caused the May–June GMV decline
+from these descriptive results.

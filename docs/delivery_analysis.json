@@ -1,0 +1,95 @@
+{
+  "scope": {
+    "population": "delivered orders",
+    "purchase_start_inclusive": "2017-01-01",
+    "purchase_end_exclusive": "2018-08-01",
+    "late_definition": "actual delivery date > estimated delivery date",
+    "low_rating_definition": "selected review score in (1, 2)",
+    "interpretation": "descriptive association, not causal evidence",
+    "sensitivity": "selected review answer timestamp >= actual delivery timestamp; this does not establish when the review was first created"
+  },
+  "overview": {
+    "delivered_orders": 89860,
+    "eligible_orders": 89852,
+    "ineligible_orders": 8,
+    "late_orders": 6138,
+    "late_rate_pct": "6.8312335841161020",
+    "delivery_duration_eligible_orders": 89852,
+    "median_delivery_days": 10.615949074074074,
+    "p90_delivery_days": 23.607653935185194,
+    "median_days_late": 7.0,
+    "p90_days_late": 23.0,
+    "orders_with_selected_review": 89238,
+    "orders_without_review": 622,
+    "review_answers_before_delivery": 4467
+  },
+  "ratings_all_selected_reviews": [
+    {
+      "delivery_group": "on_time",
+      "orders": 83714,
+      "reviewed_orders": 83237,
+      "average_review_score": "4.2837079664091690",
+      "low_rating_orders": 7807,
+      "low_rating_pct": "9.3792424042192775",
+      "median_delivery_days": 10.042563657407406,
+      "median_promised_delivery_days": 23.499103009259258
+    },
+    {
+      "delivery_group": "late",
+      "orders": 6138,
+      "reviewed_orders": 5993,
+      "average_review_score": "2.2240947772401135",
+      "low_rating_orders": 3817,
+      "low_rating_pct": "63.6909728016018688",
+      "median_delivery_days": 32.17894675925926,
+      "median_promised_delivery_days": 23.112696759259258
+    }
+  ],
+  "ratings_answered_after_delivery": [
+    {
+      "delivery_group": "on_time",
+      "orders": 83061,
+      "reviewed_orders": 83061,
+      "average_review_score": "4.2843572795896991",
+      "low_rating_orders": 7777,
+      "low_rating_pct": "9.3629982783737253",
+      "median_delivery_days": 10.029594907407407,
+      "median_promised_delivery_days": 23.49539351851852
+    },
+    {
+      "delivery_group": "late",
+      "orders": 1702,
+      "reviewed_orders": 1702,
+      "average_review_score": "3.6880141010575793",
+      "low_rating_orders": 342,
+      "low_rating_pct": "20.0940070505287897",
+      "median_delivery_days": 25.34443865740741,
+      "median_promised_delivery_days": 22.16681134259259
+    }
+  ],
+  "priority_states": [
+    {
+      "customer_state": "RJ",
+      "delivered_orders": 11587,
+      "eligible_orders": 11587,
+      "late_orders": 1453,
+      "late_rate_pct": "12.5399154224562009",
+      "median_delivery_days": 12.34548611111111,
+      "p90_delivery_days": 29.916824074074075,
+      "median_promised_delivery_days": 25.143506944444443,
+      "median_days_late": 10.0
+    },
+    {
+      "customer_state": "SP",
+      "delivered_orders": 37242,
+      "eligible_orders": 37235,
+      "late_orders": 1532,
+      "late_rate_pct": "4.1144084866389150",
+      "median_delivery_days": 7.354456018518518,
+      "p90_delivery_days": 16.025766203703707,
+      "median_promised_delivery_days": 19.289797453703706,
+      "median_days_late": 5.0
+    }
+  ],
+  "reconciliation": "PASS"
+}
