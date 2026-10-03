@@ -312,3 +312,47 @@ communication opt-outs and incentive cost. Profitability evaluation
 requires additional cost and margin data unavailable in this dataset.
 
 Do not claim that a CRM intervention has already been validated.
+
+## S13 — Customer segments at the fixed reference date
+
+Source: docs/customer_segments.json.
+Purchase window: [2017-01-01, 2018-08-01).
+Reference date: 2018-08-01.
+Recent threshold: recency <= 90 calendar days.
+Repeat threshold: at least two delivered orders within the window.
+
+Segment results:
+- inactive_single: 66,736 customers; 76.74% of customers;
+  74.10% of GMV; GMV/customer 137.05 BRL.
+- recent_single: 17,615 customers; 20.26% of customers;
+  20.42% of GMV; GMV/customer 143.06 BRL.
+- inactive_repeat: 1,976 customers; 2.27% of customers;
+  4.06% of GMV; GMV/customer 253.70 BRL.
+- recent_repeat: 633 customers; 0.73% of customers;
+  1.42% of GMV; GMV/customer 276.50 BRL.
+
+Repeat customers represented 3.00% of customers and approximately
+5.48% of merchandise GMV. Their higher GMV per customer coincided
+with more orders; their AOV was lower than either single-order group.
+
+These are descriptive segments using explicit working thresholds.
+Inactive is not confirmed churn. Monetary is observed merchandise
+GMV, not profit or customer lifetime value.
+
+## R05 — Define candidate audiences for controlled experiments
+
+Consider recent_single customers as a candidate audience for a
+second-purchase experiment. Consider inactive_repeat customers for
+a separate reactivation experiment.
+
+Before implementation, validate eligibility and communication
+permissions, account for product purchase cycles, and define a
+consistent follow-up window.
+
+Use a randomized control group to estimate incremental purchases.
+Monitor incentive cost and communication opt-outs. No campaign
+effectiveness or profitability has been established by this analysis.
+
+These segments describe a historical snapshot using final delivered
+status; they are not current customer audiences or a reconstruction
+of information available on the reference date.

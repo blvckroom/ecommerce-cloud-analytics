@@ -170,3 +170,13 @@ GitHub Actions and Streamlit secrets have not been configured.
 - In-window customers: 86,960; repeat customers: 2,609 (3.00%).
 - Cohort output covers M0-M12 and preserves unobserved months as NULL.
 - Documented observation-window limits and repeat-purchase recommendation.
+
+## Customer RFM segmentation completed
+
+- mart_customer_rfm selected build: PASS=3, no warnings or errors.
+- Customer metrics reconciled independently against raw source data.
+- Export: docs/customer_segments.json; reconciliation PASS.
+- Fixed reference date: 2018-08-01; purchase window starts 2017-01-01.
+- Four explicit recency/frequency segments; monetary retained as GMV.
+- Totals: 86,960 customers; 89,860 orders; 12,342,450.49 BRL GMV.
+- Documented segment interpretation and candidate experiment audiences.

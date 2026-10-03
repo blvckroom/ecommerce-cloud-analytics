@@ -1,0 +1,77 @@
+{
+  "definitions": {
+    "currency": "BRL",
+    "population": "customers with delivered purchases within the window",
+    "purchase_window": "[2017-01-01, 2018-08-01)",
+    "reference_date": "2018-08-01",
+    "recency": "calendar days since latest purchase within the window",
+    "frequency": "delivered orders within the window",
+    "monetary": "merchandise GMV within the window, excluding freight",
+    "recent_threshold_days": 90,
+    "repeat_threshold_orders": 2,
+    "limitations": [
+      "Segmentation thresholds are working assumptions.",
+      "Inactive means no purchase in the latest 90 days, not confirmed churn.",
+      "Frequency and monetary cover the analysis window, not lifetime history.",
+      "Monetary is observed merchandise GMV, not profit or CLV.",
+      "Final delivered status does not reconstruct status known on the reference date."
+    ]
+  },
+  "overview": {
+    "customers": 86960,
+    "delivered_orders": "89860",
+    "merchandise_gmv": "12342450.49",
+    "repeat_customers": 2609
+  },
+  "segments": [
+    {
+      "customer_segment": "inactive_single",
+      "customers": 66736,
+      "delivered_orders": "66736",
+      "merchandise_gmv": "9146185.79",
+      "average_gmv_per_customer": "137.0502545852313594",
+      "average_orders_per_customer": "1.00000000000000000000",
+      "median_recency_days": 249.0,
+      "customer_share_pct": "76.7433302667893284",
+      "gmv_share_pct": "74.1034837240007434",
+      "aov": "137.0502545852313594"
+    },
+    {
+      "customer_segment": "recent_single",
+      "customers": 17615,
+      "delivered_orders": "17615",
+      "merchandise_gmv": "2519929.02",
+      "average_gmv_per_customer": "143.0558626170877093",
+      "average_orders_per_customer": "1.00000000000000000000",
+      "median_recency_days": 47.0,
+      "customer_share_pct": "20.2564397424103036",
+      "gmv_share_pct": "20.4167642563498750",
+      "aov": "143.0558626170877093"
+    },
+    {
+      "customer_segment": "inactive_repeat",
+      "customers": 1976,
+      "delivered_orders": "4151",
+      "merchandise_gmv": "501310.23",
+      "average_gmv_per_customer": "253.6995091093117409",
+      "average_orders_per_customer": "2.1007085020242915",
+      "median_recency_days": 240.0,
+      "customer_share_pct": "2.2723091076356946",
+      "gmv_share_pct": "4.0616750328969721",
+      "aov": "120.7685449289327873"
+    },
+    {
+      "customer_segment": "recent_repeat",
+      "customers": 633,
+      "delivered_orders": "1358",
+      "merchandise_gmv": "175025.45",
+      "average_gmv_per_customer": "276.5015007898894155",
+      "average_orders_per_customer": "2.1453396524486572",
+      "median_recency_days": 48.0,
+      "customer_share_pct": "0.72792088316467341306",
+      "gmv_share_pct": "1.4180769867524095",
+      "aov": "128.8847201767304860"
+    }
+  ],
+  "reconciliation": "PASS"
+}
